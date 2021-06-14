@@ -32,3 +32,4 @@ src/*
 config/*
 Dockerfile
 .dockerignore
+declarative-subsequent-scans.tar
