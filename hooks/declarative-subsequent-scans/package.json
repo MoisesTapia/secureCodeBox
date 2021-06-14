@@ -9,7 +9,7 @@
   },
   "main": "hook.js",
   "scripts": {
-    "build": "npx typescript hook.ts --sourceMap",
+    "build": "npx tsc hook.ts --sourceMap",
     "test": "jest ."
   },
   "keywords": [
@@ -45,6 +45,6 @@
   "devDependencies": {
     "@types/node": "^14.0.14",
     "jest": "^27.0.3",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.9"
   }
 }
