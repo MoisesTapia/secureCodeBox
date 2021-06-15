@@ -675,7 +675,7 @@ jobs:
         working-directory: ./scanners/amass
         run: |
           make deploy BASE_IMG_TAG=$(git rev-parse --short HEAD)
-          make install-deps
+          make install-integration-test-deps
           make integration-tests
 
       # ---- gitleaks Integration Tests ----
